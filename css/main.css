@@ -347,8 +347,7 @@ a.left-topbar-item:hover {
   font-family: Roboto-Medium;
   font-size: 16px;
   line-height: 1.5;
-  color: #222;
-  
+  color: #2f2f2f;
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
