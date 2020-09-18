@@ -1,46 +1,3 @@
-/*------------------------------------------------------------------
-Project:  MagNews
-Version:  
-Last change:  
-Assigned to:  Le Xuan Bach
-Primary use:  Company
--------------------------------------------------------------------*/
-/*------------------------------------------------------------------
-[LAYOUT]
-
-* body
-  + Header / header
-  + Page Content / .page-content .name-page
-        + Section Layouts / section .name-section
-        ...
-  + Footer / footer
-
--------------------------------------------------------------------*/
-/*------------------------------------------------------------------
-[COLOR CODES]
-
-# Text Color      :  
-# Primary Color 01:  
-# Primary Color 02:   
-# Primary Color 03:  
-
-------------------------------------------------------------------*/
-/*------------------------------------------------------------------
-[TYPOGRAPHY]
-
-Body            : 16px/1.6 '', Arial, sans-serif;
-Title           : 18px/1.6 '', Arial, sans-serif;
-Paragrap        : 18px/1.6 '', Arial, sans-serif;
-Input, textarea : 14px/1.6 '', Arial, sans-serif;
--------------------------------------------------------------------*/
-
-
-
-/*//////////////////////////////////////////////////////////////////
-[ FONT ]*/
-
-/*------------------------------------------------------------------
-[ 1 ]*/
 @font-face {
   font-family: Roboto-Regular;
   src: url('../fonts/Roboto/Roboto-Regular.ttf'); 
@@ -61,25 +18,15 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
   src: url('../fonts/Roboto/Roboto-Black.ttf'); 
 }
 
-/*------------------------------------------------------------------
-[ 2 ]*/
 @font-face {
   font-family: Lato-Regular;
   src: url('../fonts/Lato/Lato-Regular.ttf'); 
 }
 
-
-/*//////////////////////////////////////////////////////////////////
-[ RS PLUGIN ]*/
-
 /*------------------------------------------------------------------
 [ Bootstrap ]*/
 .container {max-width: 1080px;}
 
-
-
-/*//////////////////////////////////////////////////////////////////
-[ LOADDING ]*/
 .animsition-loading-1 {
   position: absolute;
   top: 50%;
@@ -218,7 +165,7 @@ a.left-topbar-item:hover {
   position: absolute;
   width: 1px;
   height: 10px;
-  background-color: #fff;
+  background-color: #f9f7f1;
   opacity: 0.1;
   left: 0;
   top: calc(50% - 5px);
@@ -355,7 +302,7 @@ a.left-topbar-item:hover {
 .main-nav {
   width: 100%;
   height: 55px;
-  background-color: #fff;
+  background-color: #f9f7f1;
 
   box-shadow: 0 3px 8px 0px rgba(0,0,0,0.05);
   -moz-box-shadow: 0 3px 8px 0px rgba(0,0,0,0.05);
@@ -487,7 +434,7 @@ li.main-menu-active > a::before {
   top:0;
   left:100%;
   width: 225px;
-  background-color: #fff;
+  background-color: #f9f7f1;
   padding: 15px 0px 15px 0px;
 
   transition: all 0.3s;
@@ -581,7 +528,7 @@ li.respon-sub-menu > .sub-menu .sub-menu {
 
 .sub-menu > li:hover > a {
   background-color: #17b978;
-  color: #fff;
+  color: #f9f7f1;
   text-decoration: none;
 }
 
@@ -596,7 +543,7 @@ li.respon-sub-menu > .sub-menu .sub-menu {
   position: absolute;
   top: 100%;
   left: 0;
-  background-color: #fff;
+  background-color: #f9f7f1;
   width: 100%;
   display: none;
   
@@ -638,7 +585,7 @@ li.respon-sub-menu > .sub-menu .sub-menu {
 
 .sub-mega-menu .nav-pills .nav-link.active, 
 .sub-mega-menu .show>.nav-pills .nav-link {
-  color: #fff;
+  color: #f9f7f1;
   background-color: #17b978;
 }
 
@@ -694,7 +641,7 @@ li.respon-sub-menu > .sub-menu .sub-menu {
   display: flex;
   align-items: center;
   height: 65px;
-  background-color: #fff;
+  background-color: #f9f7f1;
   padding: 10px 25px;
   display: none;
   box-shadow: 0 3px 8px 0px rgba(0,0,0,0.05);
@@ -755,7 +702,7 @@ li.respon-sub-menu > .sub-menu .sub-menu {
 [ Menu mobile ]*/
 .menu-mobile {
   width: 100%;
-  background-color: #fff;
+  background-color: #f9f7f1;
   display: none;
 }
 
@@ -768,7 +715,7 @@ li.respon-sub-menu > .sub-menu .sub-menu {
 .main-menu-m > li > a {
   font-family: Roboto-Regular;
   font-size: 16px;
-  color: #fff;
+  color: #f9f7f1;
   line-height: 2.8;
   padding: 9px 25px 9px 25px;
 
@@ -779,7 +726,7 @@ li.respon-sub-menu > .sub-menu .sub-menu {
 }
 
 .main-menu-m > li > a:hover {
-  color: #fff;
+  color: #f9f7f1;
 }
 
 .main-menu-m > li {
@@ -789,7 +736,7 @@ li.respon-sub-menu > .sub-menu .sub-menu {
 
 .arrow-main-menu-m {
   font-size: 14px;
-  color: #fff;
+  color: #f9f7f1;
 
   display: -webkit-box;
   display: -webkit-flex;
@@ -823,7 +770,7 @@ li.respon-sub-menu > .sub-menu .sub-menu {
 
 /*---------------------------------------------*/
 .sub-menu-m {
-  background-color: #fff;
+  background-color: #f9f7f1;
   padding: 10px 50px 15px 20px;
   display: none;
 }
@@ -924,7 +871,7 @@ li.respon-sub-menu > .sub-menu .sub-menu {
   content: "";
   display: block;
   position: absolute;
-  background-color: #fff;
+  background-color: #f9f7f1;
   width: 7px;
   height: 7px;
   border-left: 1px solid #d5d5d5;
@@ -1112,14 +1059,14 @@ a.breadcrumb-item:hover {
 .pagi-item.pagi-active {
   background-color: #17b978;
   border-color: #17b978;
-  color: #fff;
+  color: #f9f7f1;
 }
 
 
 /*==================================================================
    COLOR COLOR COLOR COLOR COLOR COLOR COLOR COLOR COLOR COLOR COLOR 
 ==================================================================*/
-.bocl0 {border-color: #fff;}
+.bocl0 {border-color: #f9f7f1;}
 .bocl1 {border-color: #111;}
 .bocl2 {border-color: #222;}
 .bocl3 {border-color: #333;}
@@ -1136,7 +1083,7 @@ a.breadcrumb-item:hover {
 
 /*---------------------------------------------*/
 .cl-none {color: transparent;}
-.cl0 {color: #fff;}
+.cl0 {color: #f9f7f1;}
 .cl1 {color: #111;}
 .cl2 {color: #222;}
 .cl3 {color: #333;}
@@ -1529,7 +1476,7 @@ a.breadcrumb-item:hover {
    BACKGROUND BACKGROUND BACKGROUND BACKGROUND BACKGROUND BACKGROUND 
 ==================================================================*/
 .bg-none {background-color: transparent;}
-.bg0 {background-color: #fff;}
+.bg0 {background-color: #f9f7f1;}
 .bg1 {background-color: #111;}
 .bg2 {background-color: #222;}
 .bg3 {background-color: #333;}
@@ -1730,8 +1677,8 @@ a.breadcrumb-item:hover {
 /*//////////////////////////////////////////////////////////////////
 [ Hover ]*/
 
-.hov-cl0:hover {color: #fff;}
-.hov-bg0:hover {background-color: #fff;}
+.hov-cl0:hover {color: #f9f7f1;}
+.hov-bg0:hover {background-color: #f9f7f1;}
 
 .hov-cl10:hover {color: #17b978;}
 .hov-bg10:hover {background-color: #17b978;}
@@ -1768,7 +1715,7 @@ a.breadcrumb-item:hover {
 .hov-btn1:hover {
   background-color: #17b978;
   border-color: #17b978;
-  color: #fff;
+  color: #f9f7f1;
 }
 
 /*---------------------------------------------*/
