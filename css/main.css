@@ -341,6 +341,7 @@ a.left-topbar-item:hover {
 .main-menu > li {
   height: 100%;
   position: relative;
+  width: 100%;
 }
 
 .main-menu > li > a {
